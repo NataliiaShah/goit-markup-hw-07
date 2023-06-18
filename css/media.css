@@ -20,7 +20,7 @@
         width: calc((100% - 60px) / 3);
     }
     .container-team {
-        max-width: 552px;
+        max-width: 582px;
     }
     .main-content-team {
         padding: 96px 108px 96px 108px;
@@ -31,7 +31,7 @@
         gap: 24px;
    }
     .main-team-item {
-        flex-basis: calc(100% - 30px)/2;
+        flex-basis: calc(100% - 24px)/2;
     }
 }
 
