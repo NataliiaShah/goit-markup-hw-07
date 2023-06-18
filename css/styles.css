@@ -22,7 +22,7 @@ img {
 }
 
 .container {
-    max-width: 428px;
+    max-width: 426px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -188,16 +188,14 @@ img {
 
 .main-section-title {
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     /* or 107% */
     text-align: center;
     letter-spacing: 0.02em;
     
     /* WHITE */
     color: #FFFFFF;
-    margin-bottom: 88px;
-    max-width: 496px;
     margin-bottom: 72px;
 }
 
@@ -285,7 +283,7 @@ img {
 
 .main-content-list {
     display: flex;
-    gap: 24px;
+    gap: 24px; 
 }
 
 .container-item {
@@ -344,22 +342,26 @@ img {
 
 /**-------------- TEAM --------------*/
 
+.container-team {
+max-height: 2232px;
+}
+
 .main-content-team {
     background-color: #F4F4FD;
-    padding: 120px 0 120px;
+    padding: 96px 82px 96px 82px;
     
 }
 
 .main-team-list {
     background-color: #F4F4FD;
-    display: flex;
-    gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-team-item {
     background-color: #FFFFFF;
-    margin-bottom: 32px;
-    width: calc((100% - 72px)/ 4);
+    margin-bottom: 72px;
+    width: 264px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -444,8 +446,12 @@ img {
 /**-------------- CUSTOMERS --------------*/
 
 .section-customers {
-    padding-bottom: 120px;
-    padding-top: 120px;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
+.container-customers {
+    max-width: 396px;
 }
 
 .customers {
@@ -462,19 +468,21 @@ img {
     margin-bottom: 72px;
 }
 
+
 .customers-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    gap: 24px;
+    gap: 16px;
 }
 
 .customers-link {
     border: 1px solid #8e8f99;
     border-radius: 4px;
-    width: 168px;
+    width: 190px;
     height: 88px;
     display: flex;
     align-items: center;
@@ -496,7 +504,8 @@ img {
 }
 
 .customers-item {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 30px) / 2);
+    margin-bottom: 72px;
 
 }
 
@@ -1117,21 +1126,4 @@ textarea {
     color: #434455;
 }
 
-@media  section and (min-width: 428px) {
-    .container {
-        max-width: 396px;
-    }
-}
-
-@media section and (min-width: 768px) {
-    .container {
-        max-width: 738px;
-    }
-}
-
-@media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1128px;
-    }
-}
     
