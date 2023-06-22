@@ -43,6 +43,7 @@ img {
     height: 70px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-between;
 }
 
 .header-list {
@@ -361,6 +362,8 @@ img {
 
 .container-customers {
     max-width: 396px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers {
@@ -421,9 +424,8 @@ img {
 
 .footer { 
     background-color: #2E2F42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .container-logo {
@@ -525,12 +527,17 @@ img {
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     color: #FFFFFF;
-    margin-left: 80px
+    text-align: center;
+    
     
 }
 
+
+
 .footer-input {
-    width: 264px;
+    /*width: 264px;*/
+    max-width: 398px;
+    width: 100%;
     height: 40px;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -551,6 +558,10 @@ img {
    justify-content: center;
    align-items: center;
    gap: 16px;
+   width: 100%;
+}
+.footer-label {
+    width: 100%;
 }
 
 .modal-form-submit-footer {
@@ -653,7 +664,7 @@ img {
 }
 
 .modal {
-    padding: 72px 24px 24px;
+    padding: 72px 16px 24px 16px;
 }
 
 .modal-title {
@@ -1071,7 +1082,7 @@ textarea {
     height: 24px;
 }
 
-.mobile-menu-list {
+.mobile-menu-item {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -1083,25 +1094,17 @@ textarea {
     color: #2E2F42;
 }
 
+.mobile-current-page {
+    color: #404BBF;
+    text-decoration: none;
+}
+
 .mobile-menu-item:not(:last-child) {
     margin-bottom: 40px;
 }
 
-.menu-address-item-phon {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    /* identical to box height, or 111% */
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    
-     /* IRIS */
-    color: #4D5AE5;
-    margin-bottom: 40px;
-}
 
-.menu-address-item {
+.menu-address-link {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1111,7 +1114,25 @@ textarea {
     
     /* SLATE */
     color: #434455;
+}
+
+.menu-current {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+    /* IRIS */
+    color: #4D5AE5;
+}
+.menu-address {
     margin-bottom: 48px;
+}
+
+.menu-address-item {
+    margin-bottom: 40px;
 }
 
 .menu-social-list {
