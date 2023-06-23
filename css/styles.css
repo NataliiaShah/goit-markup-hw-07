@@ -276,7 +276,6 @@ img {
     width: 264px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 2px 1px rgba(46, 47, 66, 0.08);
-    margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -362,6 +361,9 @@ img {
 
 .container-customers {
     max-width: 396px;
+}
+
+.section-customers {
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -527,12 +529,8 @@ img {
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     color: #FFFFFF;
-    text-align: center;
-    
-    
+    text-align: center;    
 }
-
-
 
 .footer-input {
     /*width: 264px;*/
@@ -612,7 +610,7 @@ img {
     border-radius: 4px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform var(--tra);
-    width: calc(100% - 30px)
+    width: calc(100% - 30px);
 }
 
 .modal-close {
@@ -1080,18 +1078,19 @@ textarea {
     margin-bottom: 32px;
     width: 24px;
     height: 24px;
+    border-radius: 50%;
+    border: none;
 }
 
 .mobile-menu-item {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    /* identical to box height, or 111% */
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    
-    /* OCEAN */
     color: #2E2F42;
+    /* Header 2 */
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .mobile-current-page {
@@ -1137,7 +1136,8 @@ textarea {
 
 .menu-social-list {
     display: flex;
-    gap: 56px;
+    justify-content: space-between;
+
 }
 
 .menu-social-item {
@@ -1171,7 +1171,9 @@ textarea {
     background-color: #FFFFFF;
 
 }
-    .menu-open-icon {
-        stroke: #2E2F42;
-    }
+    
+.menu-open-icon {
+    stroke: #2E2F42; 
+}
+
     
