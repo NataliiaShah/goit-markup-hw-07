@@ -2,6 +2,10 @@
     .container {
         max-width: 426px;
     }
+
+    .menu-social-list {
+        gap: 56px;
+    }
 }
 /**---- TABLET-----*/
 
@@ -20,7 +24,6 @@
     }
 
     .main-section {
-        padding-bottom: 204px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tablet.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -87,11 +90,11 @@
 .container-general {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
     align-items: baseline;
 }
 .container-logo{
     align-items: baseline;
+    margin-right: 24px;
 }
 .footer-group {
     align-items: baseline;
@@ -347,15 +350,26 @@
 
     .footer>.container {
         max-width: 1158px;
-}
+   }
+
+   .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
  
     .container-general {
         display: flex;
         flex-wrap: nowrap;
         align-items: baseline;
-        justify-content: center;
-        gap: 80px;
-        
+        justify-content: center;   
+    }
+
+    .container-logo {
+        margin-right: 120px;
+    }
+
+    .container-form {
+        margin-left: auto;
     }
 
     .modal-form-footer {
@@ -458,4 +472,9 @@
         .menu-open-btn {
             display: none;
         }
+}
+
+.modal {
+    padding-left: 24px;
+    padding-right: 24px;
 }
