@@ -280,6 +280,10 @@ img {
     margin-right: auto;
 }
 
+.main-team-item:not(:last-child) {
+    margin-bottom: 72px;
+}
+
 .main-team-titel {
     font-weight: 700;
     font-size: 36px;
@@ -429,6 +433,7 @@ img {
     padding-top: 96px;
     padding-bottom: 96px;
 }
+
 
 .container-logo {
     display: flex;
@@ -789,6 +794,7 @@ textarea {
     
     /* LIGHT SLATE */
     color: #8E8F99;
+    display: flex;
     
 }
 
@@ -1082,7 +1088,7 @@ textarea {
     border: none;
 }
 
-.mobile-menu-item {
+.mobile-menu-link {
     color: #2E2F42;
     /* Header 2 */
     font-size: 36px;
